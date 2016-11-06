@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace MakeItSo
 {
-    public partial class Form1 : Form
+    public partial class TOCK : Form
     {
-        public Form1()
+        public TOCK()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("OLA Bitches");
         }
     }
 }
